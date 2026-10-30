@@ -63,7 +63,7 @@
 .fi{position:relative;height:100%;display:grid;grid-template-rows:auto 1fr auto;padding:2.4cqi 3.6cqi 0}
 .s-top{display:flex;justify-content:space-between;align-items:center}
 .s-brand{display:flex;align-items:center;gap:.8cqi;font-size:clamp(10px,.95cqi,13px);font-weight:600;color:var(--mut)}
-.s-brand img{width:clamp(18px,1.9cqi,26px);height:auto}
+.s-brand img{width:clamp(18px,1.9cqi,26px);height:auto;border-radius:24%}
 .count{font-size:clamp(10px,.95cqi,13px);color:var(--dim);font-variant-numeric:tabular-nums;letter-spacing:.08em}
 .s-body{display:grid;grid-template-columns:41fr 59fr;gap:4cqi;align-items:center;min-height:0;padding-block:1.6cqi}
 .s-body.wide{grid-template-columns:1fr}
@@ -166,7 +166,7 @@
 .orb-ring{position:absolute;width:30em;height:30em;border-radius:50%;border:1px dashed rgba(255,255,255,.12);animation:orbit 60s linear infinite}
 .orb-ring.r2{width:19em;height:19em;border-style:solid;border-color:rgba(167,46,33,.35);animation-duration:40s;animation-direction:reverse}
 .orb-core{position:relative;width:9em;height:9em;border-radius:50%;background:radial-gradient(circle at 35% 30%,#2a0f0b,#0b0b0b 70%);border:1px solid rgba(167,46,33,.6);display:grid;place-items:center;box-shadow:0 0 0 1.2em rgba(167,46,33,.07),0 0 6em rgba(167,46,33,.35)}
-.orb-core img{width:4.6em;height:auto}
+.orb-core img{width:4.6em;height:auto;border-radius:24%}
 .orb-node{position:absolute;left:50%;top:50%;width:0;height:0}
 .orb-node .chip{position:absolute;transform:translate(-50%,-50%);background:#0d0d0d;font-size:1.25em;font-weight:500;animation:counter 60s linear infinite}
 .orb-node .chip .av{width:1.5em;height:1.5em}
