@@ -13,8 +13,14 @@ export function Apresentacao({ deck: deckKey }: { deck: DeckKey }) {
   useEffect(() => {
     const root = rootRef.current;
     if (!root) return;
-    const slides = [...root.querySelectorAll<HTMLElement>(".slide")];
+    // slides ocultos (hidden) ficam fora da contagem e da navegação
+    const slides = [...root.querySelectorAll<HTMLElement>(".slide:not([hidden])")];
     const N = slides.length;
+    const bar = root.querySelector<HTMLElement>(".pbar");
+    if (bar) {
+      while (bar.children.length > N) bar.removeChild(bar.lastElementChild!);
+      while (bar.children.length < N) bar.appendChild(document.createElement("i"));
+    }
     const segs = [...root.querySelectorAll<HTMLElement>(".pbar i")];
     const hint = root.querySelector<HTMLElement>(".hint")!;
     const btnPause = root.querySelector<HTMLButtonElement>("#btnPause")!;

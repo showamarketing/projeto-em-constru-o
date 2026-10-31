@@ -548,8 +548,8 @@ export const Slides = memo(function Slides() {
        </div></div>
       </section>
 
-      {/* AG 20 impacto hoje */}
-      <section className="slide" id="ag-tempo-criar">
+      {/* AG 20 impacto hoje — oculta do público (hidden). Para mostrar de novo, tirar o "hidden". */}
+      <section className="slide" id="ag-tempo-criar" hidden>
        <div className="frame"><div className="fi">
         <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">20 / 24</span></div>
         <div className="s-body">
@@ -581,8 +581,8 @@ export const Slides = memo(function Slides() {
        </div></div>
       </section>
 
-      {/* AG 21 gargalo */}
-      <section className="slide" id="ag-gargalo">
+      {/* AG 21 gargalo — oculta do público (hidden). Para mostrar de novo, tirar o "hidden". */}
+      <section className="slide" id="ag-gargalo" hidden>
        <div className="frame"><div className="fi">
         <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">21 / 24</span></div>
         <div className="s-body">
