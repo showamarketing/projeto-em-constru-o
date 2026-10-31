@@ -585,6 +585,8 @@
 .lmeter{height:.8em;border-radius:1em;background:rgba(255,255,255,.08);overflow:hidden}
 .lmeter i{display:block;height:100%;border-radius:1em;transform-origin:left}
 .slide.in .lmeter i{animation:grow 1.2s ease backwards;animation-delay:.4s}
+.perk{grid-column:2;display:flex;align-items:center;gap:.9em;background:#fff;color:#0b0b0b;border-radius:1.2em;padding:1.1em 1.3em;line-height:1.25}
+.perk-ic{width:2.2em;height:2.2em;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;font-weight:700;flex:none}
 
 /* ferramentas da equipe */
 .tools4{display:grid;grid-template-columns:1fr 1fr;gap:1em}

@@ -512,6 +512,7 @@ export const Slides = memo(function Slides() {
             <div className="lmeter"><i style={{ width: "65%", background: "var(--green)" }}></i></div>
             <span className="fs10 mut">tempo para fazer bem feito</span>
            </div>
+           <div className="perk p" style={{ "--d": "4" } as CSSProperties}><span className="perk-ic">✓</span><span className="fs14 bb">Pagamento proporcional, sem horário fixo.</span></div>
           </div>
          </div></div>
         </div>
