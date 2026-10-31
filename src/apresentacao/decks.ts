@@ -44,7 +44,7 @@ export const DECKS: Deck[] = [
       { href: "#ag-audiovisual", label: "Audiovisual" },
       { href: "#ag-nicho", label: "Nicho" },
       { href: "#ag-processos", label: "Processos" },
-      { href: "#ag-tempo-criar", label: "Impacto" },
+      { href: "#ag-funcao-certa", label: "Impacto" },
     ],
   },
 ];
