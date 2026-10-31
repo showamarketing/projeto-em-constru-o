@@ -520,34 +520,6 @@ export const Slides = memo(function Slides() {
        </div></div>
       </section>
 
-      {/* AG 19 ferramentas */}
-      <section className="slide" id="ag-processos">
-       <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">19 / 24</span></div>
-        <div className="s-body">
-         <div className="s-text">
-          <p className="eyebrow a">Processos</p>
-          <h2 className="a" style={{ "--d": "1" } as CSSProperties}>Cada ferramenta tem uma função.</h2>
-          <p className="lede a" style={{ "--d": "2" } as CSSProperties}>É obrigação de todo mundo da equipe seguir esse fluxo. Se alguém falha, a gente vai atrás para corrigir.</p>
-          <ul className="pts a" style={{ "--d": "3" } as CSSProperties}><li>Trello: a rotina de cada um</li><li>WhatsApp: a comunicação do dia a dia</li><li>Discord: as reuniões</li><li>Google Drive: todos os materiais</li></ul>
-         </div>
-         <div className="viz"><div className="mock">
-          <div className="tools4">
-           <div className="t4 p" style={{ "--d": "1" } as CSSProperties}><div className="hd"><span className="lg" style={{ background: "#1868db" }}>T</span><span className="fs12 b">Trello</span><span className="dsc">rotina</span></div>
-            <div className="trello"><div><span>A fazer</span><i></i><i></i><i></i></div><div><span>Fazendo</span><i></i><i className="mv"></i></div><div><span>Feito</span><i></i><i></i></div></div></div>
-           <div className="t4 p" style={{ "--d": "2" } as CSSProperties}><div className="hd"><span className="lg" style={{ background: "#1fa855" }}>W</span><span className="fs12 b">WhatsApp</span><span className="dsc">comunicação</span></div>
-            <div className="wa"><span className="in">O vídeo do cliente já foi aprovado?</span><span className="out">Aprovado, está no Drive.</span></div></div>
-           <div className="t4 p" style={{ "--d": "3" } as CSSProperties}><div className="hd"><span className="lg" style={{ background: "#5865f2" }}>D</span><span className="fs12 b">Discord</span><span className="dsc">reuniões</span></div>
-            <div className="dc"><span className="av talk"></span><span className="av red"></span><span className="av blu"></span><span className="av amb"></span><span className="fs10 mut">Reunião de pauta</span></div></div>
-           <div className="t4 p" style={{ "--d": "4" } as CSSProperties}><div className="hd"><span className="lg" style={{ background: "#2a2a2a", color: "#f4b400" }}>▲</span><span className="fs12 b">Google Drive</span><span className="dsc">materiais</span></div>
-            <div className="drv"><span>Clientes / Roteiros</span><span>Clientes / Vídeos editados</span><span>Clientes / Artes aprovadas</span></div></div>
-          </div>
-         </div></div>
-        </div>
-        <div className="s-foot"><b>Leve esta ideia</b><span>Cada ferramenta tem uma função, e usar todas é obrigação de todos.</span></div>
-       </div></div>
-      </section>
-
       {/* AG 20 impacto hoje — oculta do público (hidden). Para mostrar de novo, tirar o "hidden". */}
       <section className="slide" id="ag-tempo-criar" hidden>
        <div className="frame"><div className="fi">
@@ -660,6 +632,34 @@ export const Slides = memo(function Slides() {
          </div></div>
         </div>
         <div className="s-foot"><b>Leve esta ideia</b><span>Quem entrega melhor e mais rápido produz mais daquilo. É assim que os bons se destacam.</span></div>
+       </div></div>
+      </section>
+
+      {/* AG 19 ferramentas */}
+      <section className="slide" id="ag-processos">
+       <div className="frame"><div className="fi">
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">19 / 24</span></div>
+        <div className="s-body">
+         <div className="s-text">
+          <p className="eyebrow a">Processos</p>
+          <h2 className="a" style={{ "--d": "1" } as CSSProperties}>Cada ferramenta tem uma função.</h2>
+          <p className="lede a" style={{ "--d": "2" } as CSSProperties}>É obrigação de todo mundo da equipe seguir esse fluxo. Se alguém falha, a gente vai atrás para corrigir.</p>
+          <ul className="pts a" style={{ "--d": "3" } as CSSProperties}><li>Trello: a rotina de cada um</li><li>WhatsApp: a comunicação do dia a dia</li><li>Discord: as reuniões</li><li>Google Drive: todos os materiais</li></ul>
+         </div>
+         <div className="viz"><div className="mock">
+          <div className="tools4">
+           <div className="t4 p" style={{ "--d": "1" } as CSSProperties}><div className="hd"><span className="lg" style={{ background: "#1868db" }}>T</span><span className="fs12 b">Trello</span><span className="dsc">rotina</span></div>
+            <div className="trello"><div><span>A fazer</span><i></i><i></i><i></i></div><div><span>Fazendo</span><i></i><i className="mv"></i></div><div><span>Feito</span><i></i><i></i></div></div></div>
+           <div className="t4 p" style={{ "--d": "2" } as CSSProperties}><div className="hd"><span className="lg" style={{ background: "#1fa855" }}>W</span><span className="fs12 b">WhatsApp</span><span className="dsc">comunicação</span></div>
+            <div className="wa"><span className="in">O vídeo do cliente já foi aprovado?</span><span className="out">Aprovado, está no Drive.</span></div></div>
+           <div className="t4 p" style={{ "--d": "3" } as CSSProperties}><div className="hd"><span className="lg" style={{ background: "#5865f2" }}>D</span><span className="fs12 b">Discord</span><span className="dsc">reuniões</span></div>
+            <div className="dc"><span className="av talk"></span><span className="av red"></span><span className="av blu"></span><span className="av amb"></span><span className="fs10 mut">Reunião de pauta</span></div></div>
+           <div className="t4 p" style={{ "--d": "4" } as CSSProperties}><div className="hd"><span className="lg" style={{ background: "#2a2a2a", color: "#f4b400" }}>▲</span><span className="fs12 b">Google Drive</span><span className="dsc">materiais</span></div>
+            <div className="drv"><span>Clientes / Roteiros</span><span>Clientes / Vídeos editados</span><span>Clientes / Artes aprovadas</span></div></div>
+          </div>
+         </div></div>
+        </div>
+        <div className="s-foot"><b>Leve esta ideia</b><span>Cada ferramenta tem uma função, e usar todas é obrigação de todos.</span></div>
        </div></div>
       </section>
 
