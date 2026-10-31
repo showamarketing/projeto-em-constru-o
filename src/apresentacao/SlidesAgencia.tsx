@@ -47,7 +47,7 @@ export const Slides = memo(function Slides() {
             <div className="ms">
              <div style={{ "--d": "1" } as CSSProperties}><span className="lb up"><b>2022</b>Dois sócios saindo de outros empregos</span><span className="stem"></span><span className="pt"></span></div>
              <div style={{ "--d": "2" } as CSSProperties}><span className="lb dn"><b>1º cliente</b>Uma policlínica em Santa Rita</span><span className="stem"></span><span className="pt"></span></div>
-             <div style={{ "--d": "3" } as CSSProperties}><span className="lb up"><b>Equipe de 4</b>Cada um na sua função</span><span className="stem"></span><span className="pt"></span></div>
+             <div style={{ "--d": "3" } as CSSProperties}><span className="lb up"><b>Equipe com 4 pessoas</b>Cada um na sua função</span><span className="stem"></span><span className="pt"></span></div>
              <div style={{ "--d": "4" } as CSSProperties}><span className="lb dn"><b>Indicações</b>Os primeiros clientes indicam outros</span><span className="stem"></span><span className="pt"></span></div>
              <div style={{ "--d": "5" } as CSSProperties}><span className="lb up"><b>Audiovisual</b>Os clientes passam a pedir vídeo</span><span className="stem"></span><span className="pt"></span></div>
              <div style={{ "--d": "6" } as CSSProperties}><span className="lb dn"><b>Marketing médico</b>O mercado em que a gente entrega melhor</span><span className="stem"></span><span className="pt"></span></div>
@@ -144,7 +144,7 @@ export const Slides = memo(function Slides() {
        </div></div>
       </section>
 
-      {/* AG 06 equipe de 4 */}
+      {/* AG 06 equipe com 4 pessoas */}
       <section className="slide" id="ag-equipe">
        <div className="frame"><div className="fi">
         <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">06 / 23</span></div>
