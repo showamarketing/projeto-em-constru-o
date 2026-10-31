@@ -6,7 +6,7 @@ de apresentação:
 | Rota | Apresentação |
 | --- | --- |
 | `/` | Agentes de IA na prática (23 slides, aprovada) |
-| `/agencia-organizada` | Agência organizada e operação escalável (23 slides, fechamento em construção) |
+| `/agencia-organizada` | Agência organizada e operação escalável (24 slides) |
 
 A página de vagas que existia antes foi movida para `/vagas`.
 

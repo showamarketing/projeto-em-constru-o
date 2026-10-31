@@ -4,7 +4,7 @@
 import { memo, type CSSProperties } from "react";
 import icone from "@/assets/showa-icone.png";
 
-export const TOTAL_SLIDES = 23;
+export const TOTAL_SLIDES = 24;
 
 export const Slides = memo(function Slides() {
   return (
@@ -12,7 +12,7 @@ export const Slides = memo(function Slides() {
       {/* AG 01 capa */}
       <section className="slide" id="ag-inicio">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Showa Marketing</span><span className="count">01 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Showa Marketing</span><span className="count">01 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Showa × Impacto Comunicação e Marketing</p>
@@ -34,7 +34,7 @@ export const Slides = memo(function Slides() {
       {/* AG 02 trajetória */}
       <section className="slide" id="ag-trajetoria">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">02 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">02 / 24</span></div>
         <div className="s-body wide">
          <div className="s-text" style={{ gap: "2cqi" }}>
           <div className="row" style={{ justifyContent: "space-between", flexWrap: "wrap", gap: "1cqi" }}>
@@ -64,7 +64,7 @@ export const Slides = memo(function Slides() {
       {/* AG 03 origem */}
       <section className="slide" id="ag-origem">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">03 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">03 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Como começou</p>
@@ -90,7 +90,7 @@ export const Slides = memo(function Slides() {
       {/* AG 04 escutar primeiro */}
       <section className="slide" id="ag-escutar">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">04 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">04 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">O primeiro cliente</p>
@@ -115,7 +115,7 @@ export const Slides = memo(function Slides() {
       {/* AG 05 fazíamos tudo */}
       <section className="slide" id="ag-tudo">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">05 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">05 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">O primeiro contrato</p>
@@ -147,7 +147,7 @@ export const Slides = memo(function Slides() {
       {/* AG 06 equipe com 4 pessoas */}
       <section className="slide" id="ag-equipe">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">06 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">06 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">A primeira equipe</p>
@@ -175,7 +175,7 @@ export const Slides = memo(function Slides() {
       {/* AG 07 indicações */}
       <section className="slide" id="ag-indicacoes">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">07 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">07 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Os primeiros clientes</p>
@@ -216,7 +216,7 @@ export const Slides = memo(function Slides() {
       {/* AG 08 sem câmera */}
       <section className="slide" id="ag-audiovisual">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">08 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">08 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">A maior dificuldade</p>
@@ -241,7 +241,7 @@ export const Slides = memo(function Slides() {
       {/* AG 09 pousada */}
       <section className="slide" id="ag-camera">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">09 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">09 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">A sacada</p>
@@ -270,7 +270,7 @@ export const Slides = memo(function Slides() {
       {/* AG 10 comercial estoura */}
       <section className="slide" id="ag-comercial">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">10 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">10 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Depois da câmera</p>
@@ -294,7 +294,7 @@ export const Slides = memo(function Slides() {
       {/* AG 11 distância */}
       <section className="slide" id="ag-distancia">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">11 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">11 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">A primeira dor de cabeça</p>
@@ -322,7 +322,7 @@ export const Slides = memo(function Slides() {
       {/* AG 12 social media */}
       <section className="slide" id="ag-delegar-cedo">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">12 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">12 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Social media</p>
@@ -344,7 +344,7 @@ export const Slides = memo(function Slides() {
       {/* AG 13 carro andando */}
       <section className="slide" id="ag-carro-andando">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">13 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">13 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Corrigir com o carro andando</p>
@@ -372,7 +372,7 @@ export const Slides = memo(function Slides() {
       {/* AG 14 nicho */}
       <section className="slide" id="ag-nicho">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">14 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">14 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">O destaque</p>
@@ -399,7 +399,7 @@ export const Slides = memo(function Slides() {
       {/* AG 15 volante de indicação */}
       <section className="slide" id="ag-resultado">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">15 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">15 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Recompensa</p>
@@ -429,7 +429,7 @@ export const Slides = memo(function Slides() {
       {/* AG 16 dizer não */}
       <section className="slide" id="ag-dizer-nao">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">16 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">16 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">O diferencial</p>
@@ -454,7 +454,7 @@ export const Slides = memo(function Slides() {
       {/* AG 17 parcerias */}
       <section className="slide" id="ag-parcerias">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">17 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">17 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Parcerias</p>
@@ -487,7 +487,7 @@ export const Slides = memo(function Slides() {
       {/* AG 18 organização interna */}
       <section className="slide" id="ag-pessoas">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">18 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">18 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Organização interna</p>
@@ -523,7 +523,7 @@ export const Slides = memo(function Slides() {
       {/* AG 19 ferramentas */}
       <section className="slide" id="ag-processos">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">19 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">19 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Processos</p>
@@ -551,7 +551,7 @@ export const Slides = memo(function Slides() {
       {/* AG 20 impacto hoje */}
       <section className="slide" id="ag-tempo-criar">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">20 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">20 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">Trazendo para a Impacto</p>
@@ -584,7 +584,7 @@ export const Slides = memo(function Slides() {
       {/* AG 21 gargalo */}
       <section className="slide" id="ag-gargalo">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">21 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">21 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">O gargalo</p>
@@ -614,7 +614,7 @@ export const Slides = memo(function Slides() {
       {/* AG 22 cada um no seu */}
       <section className="slide" id="ag-funcao-certa">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">22 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">22 / 24</span></div>
         <div className="s-body">
          <div className="s-text">
           <p className="eyebrow a">O talento certo</p>
@@ -637,15 +637,41 @@ export const Slides = memo(function Slides() {
        </div></div>
       </section>
 
-      {/* AG 23 delegar */}
+      {/* AG 23 reunião de equipe */}
+      <section className="slide" id="ag-reunioes">
+       <div className="frame"><div className="fi">
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">23 / 24</span></div>
+        <div className="s-body">
+         <div className="s-text">
+          <p className="eyebrow a">Dica de gestão</p>
+          <h2 className="a" style={{ "--d": "1" } as CSSProperties}>Reúna a equipe e veja quem entrega melhor.</h2>
+          <p className="lede a" style={{ "--d": "2" } as CSSProperties}>Não basta saber o que cada um gosta de fazer. Converse e marque reuniões para entender o que cada pessoa entrega com mais qualidade e mais rápido.</p>
+          <ul className="pts a" style={{ "--d": "3" } as CSSProperties}><li>Entrega vídeo mais rápido? Mais volume de vídeo.</li><li>Faz arte muito bem? Mais volume de arte.</li><li>Ainda não se destaca? Outra função ou apoio ao processo.</li></ul>
+         </div>
+         <div className="viz"><div className="mock">
+          <div className="meet a" style={{ "--d": "1" } as CSSProperties}>
+           <div className="row" style={{ justifyContent: "space-between" }}><div className="col"><span className="fs14 bb">Reunião de equipe</span><span className="fs10 mut">o que cada um entrega melhor e mais rápido</span></div><div className="dc" style={{ flex: "none" }}><span className="av talk sm"></span><span className="av blu sm"></span><span className="av amb sm"></span></div></div>
+           <div className="mt-row mt-head"><span></span><span>Vídeo</span><span>Arte</span><span>Decisão</span></div>
+           <div className="mt-row" style={{ "--d": "2" } as CSSProperties}><span className="av"></span><span className="lvl"><i className="on"></i><i className="on"></i><i className="on"></i><i className="on"></i></span><span className="lvl"><i className="on"></i><i className="on"></i><i></i><i></i></span><span className="dec v">Mais vídeos</span></div>
+           <div className="mt-row" style={{ "--d": "3" } as CSSProperties}><span className="av blu"></span><span className="lvl"><i className="on"></i><i className="on"></i><i></i><i></i></span><span className="lvl"><i className="on"></i><i className="on"></i><i className="on"></i><i className="on"></i></span><span className="dec v">Mais artes</span></div>
+           <div className="mt-row" style={{ "--d": "4" } as CSSProperties}><span className="av amb"></span><span className="lvl"><i className="on"></i><i className="on"></i><i></i><i></i></span><span className="lvl"><i className="on"></i><i></i><i></i><i></i></span><span className="dec s">Apoio ao processo</span></div>
+           <span className="fs9 dim">Exemplo ilustrativo. Cada barra soma qualidade e velocidade de entrega.</span>
+          </div>
+         </div></div>
+        </div>
+        <div className="s-foot"><b>Leve esta ideia</b><span>Quem entrega melhor e mais rápido produz mais daquilo. É assim que os bons se destacam.</span></div>
+       </div></div>
+      </section>
+
+      {/* AG 24 delegar */}
       <section className="slide" id="ag-delegar">
        <div className="frame"><div className="fi">
-        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">23 / 23</span></div>
+        <div className="s-top"><span className="s-brand"><img src={icone} alt="" />Agência organizada</span><span className="count">24 / 24</span></div>
         <div className="s-body wide">
          <div className="closing">
           <img className="p" src={icone} alt="" style={{ width: "clamp(56px,6cqi,84px)", borderRadius: "24%" }} />
           <h2 className="a" style={{ "--d": "1" } as CSSProperties}>Na escala, delegar é <span className="hl">necessidade.</span></h2>
-          <p className="lede a" style={{ "--d": "2" } as CSSProperties}>A Showa também demorou para aprender a delegar. Chegou um momento em que não havia outro caminho.</p>
+          <p className="lede a" style={{ "--d": "2" } as CSSProperties}>A Showa também demorou para aprender a delegar. Com os bons produzindo no que fazem de melhor e se destacando, a empresa toma o rumo do objetivo que vocês querem alcançar.</p>
           <div className="trio a" style={{ "--d": "3" } as CSSProperties}><span className="chip">Pessoas</span><span className="chip">Processos</span><span className="chip">Produtividade</span></div>
          </div>
         </div>
