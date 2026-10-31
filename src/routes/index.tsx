@@ -26,5 +26,9 @@ export const Route = createFileRoute("/")({
       { rel: "stylesheet", href: apresentacaoCss },
     ],
   }),
-  component: Apresentacao,
+  component: AgentesPage,
 });
+
+function AgentesPage() {
+  return <Apresentacao deck="agentes" />;
+}

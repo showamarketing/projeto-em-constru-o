@@ -1,7 +1,14 @@
-# Apresentação "Agentes de IA na prática"
+# Apresentações da Showa
 
-Aula interna da Showa Marketing para a equipe da Impacto. A página inicial (`/`) é a
-apresentação; a página de vagas que existia antes foi movida para `/vagas`.
+Aulas internas da Showa Marketing para a equipe da Impacto. Um seletor no topo troca
+de apresentação:
+
+| Rota | Apresentação |
+| --- | --- |
+| `/` | Agentes de IA na prática (23 slides, aprovada) |
+| `/agencia-organizada` | Agência organizada e operação escalável (23 slides, fechamento em construção) |
+
+A página de vagas que existia antes foi movida para `/vagas`.
 
 ## Isto é uma port, não um projeto para redesenhar
 
@@ -18,9 +25,11 @@ finas e etiquetas em pílula. Ao editar:
 
 | Arquivo | O que é |
 | --- | --- |
-| `src/routes/index.tsx` | rota `/`, título da página e carregamento da fonte e do CSS |
-| `src/apresentacao/Apresentacao.tsx` | barra do topo, modo TV (setas, F, P, Esc, deslizar no celular) e controles |
-| `src/apresentacao/Slides.tsx` | os 23 slides; cada `<section className="slide">` é um slide |
+| `src/routes/index.tsx`, `src/routes/agencia-organizada.tsx` | uma rota por apresentação, com título e carregamento da fonte e do CSS |
+| `src/apresentacao/decks.ts` | lista das apresentações: rota, título, slides e atalhos de seção do topo |
+| `src/apresentacao/Apresentacao.tsx` | barra do topo com o seletor, modo TV (setas, F, P, Esc, deslizar no celular) e controles |
+| `src/apresentacao/Slides.tsx` | slides de "Agentes de IA na prática"; cada `<section className="slide">` é um slide |
+| `src/apresentacao/SlidesAgencia.tsx` | slides de "Agência organizada e operação escalável" (ids começam com `ag-`) |
 | `src/apresentacao/apresentacao.css` | todo o visual, com escopo em `.apr` para não afetar outras páginas |
 | `src/assets/showa-logo.png`, `showa-icone.png` | logo e ícone da Showa |
 | `public/video-psa.mp4` | vídeo de Novembro Azul entregue pelos agentes (slide 19) |
@@ -28,7 +37,8 @@ finas e etiquetas em pílula. Ao editar:
 ## Regras dos slides
 
 - A numeração "NN / 23" e a frase de "Leve esta ideia" estão escritas em cada slide.
-  Ao incluir ou remover um slide, atualizar todos os contadores e `TOTAL_SLIDES`.
+  Ao incluir ou remover um slide, atualizar todos os contadores e `TOTAL_SLIDES` do arquivo.
+- Nova apresentação = novo arquivo de slides, uma entrada em `decks.ts` e uma rota.
 - As animações de entrada usam as classes `a`, `p` e `f` com a variável `--d`
   (atraso). Elas só rodam quando o slide recebe a classe `in`, controlada pelo
   `Apresentacao.tsx`.

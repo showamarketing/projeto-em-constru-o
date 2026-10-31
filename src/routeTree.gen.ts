@@ -10,11 +10,17 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AgenciaOrganizadaRouteImport } from './routes/agencia-organizada'
 import { Route as VagasRouteImport } from './routes/vagas'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AgenciaOrganizadaRoute = AgenciaOrganizadaRouteImport.update({
+  id: '/agencia-organizada',
+  path: '/agencia-organizada',
   getParentRoute: () => rootRouteImport,
 } as any)
 const VagasRoute = VagasRouteImport.update({
@@ -25,27 +31,31 @@ const VagasRoute = VagasRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/agencia-organizada': typeof AgenciaOrganizadaRoute
   '/vagas': typeof VagasRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/agencia-organizada': typeof AgenciaOrganizadaRoute
   '/vagas': typeof VagasRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/agencia-organizada': typeof AgenciaOrganizadaRoute
   '/vagas': typeof VagasRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/vagas'
+  fullPaths: '/' | '/agencia-organizada' | '/vagas'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/vagas'
-  id: '__root__' | '/' | '/vagas'
+  to: '/' | '/agencia-organizada' | '/vagas'
+  id: '__root__' | '/' | '/agencia-organizada' | '/vagas'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AgenciaOrganizadaRoute: typeof AgenciaOrganizadaRoute
   VagasRoute: typeof VagasRoute
 }
 
@@ -56,6 +66,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agencia-organizada': {
+      id: '/agencia-organizada'
+      path: '/agencia-organizada'
+      fullPath: '/agencia-organizada'
+      preLoaderRoute: typeof AgenciaOrganizadaRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/vagas': {
@@ -70,6 +87,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AgenciaOrganizadaRoute: AgenciaOrganizadaRoute,
   VagasRoute: VagasRoute,
 }
 export const routeTree = rootRouteImport
